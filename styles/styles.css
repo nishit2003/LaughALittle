@@ -1,9 +1,16 @@
+body {
+  background-color: lightblue; /* Light yellowish background */
+}
+
 #joke-container {
   min-width: 300px;
 }
 
-#joke-text {
-  min-height: 50px;
-  margin-top: 20px;
-  font-style: italic;
+.card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn-group button {
+  min-width: 50px;
 }

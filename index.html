@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Joke Generator</title>
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-  </head>
-  <body>
-    <div id="joke-container" class="card">
-      <div class="card-header">Laugh a Little</div>
+<head>
+  <title>Joke Generator</title>
+  <link
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container mt-5">
+    <div id="joke-container" class="card text-center bg-light">
+      <div class="card-header bg-warning">Laugh a Little</div>
       <div class="card-body">
         <div class="btn-group mb-3" role="group" aria-label="Joke and Fact Buttons">
-        <button id="dad-joke">Dad Joke</button>
-        <button id="normal-joke">Normal Joke</button>
-        <button id="get-fact">Random Fact</button>
+          <button id="dad-joke" class="btn btn-primary">Dad Joke</button>
+          <button id="normal-joke" class="btn btn-secondary">Normal Joke</button>
+          <button id="get-fact" class="btn btn-info">Random Fact</button>
         </div>
         <p id="joke-text" class="card-text"></p>
       </div>
     </div>
-    <script type="module" src="jokes.js"></script>
-  </body>
+  </div>
+  <script type="module" src="jokes.js"></script>
+</body>
 </html>
