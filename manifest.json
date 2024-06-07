@@ -1,12 +1,11 @@
-
 {
   "manifest_version": 3,
   "name": "Joke Generator",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Get jokes from the API-Ninjas joke API.",
   "permissions": ["activeTab"],
-  "browser_action": {
-    "default_popup": "popup.html",
+  "action": {
+    "default_popup": "index.html",
     "default_icon": "icon.png"
   }
 }

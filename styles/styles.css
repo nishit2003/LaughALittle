@@ -1,0 +1,9 @@
+#joke-container {
+  min-width: 300px;
+}
+
+#joke-text {
+  min-height: 50px;
+  margin-top: 20px;
+  font-style: italic;
+}
