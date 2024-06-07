@@ -1,4 +1,4 @@
-import config from "./config";
+import config from "./config.js";
 
 const dadButton = document.getElementById("dad-joke");
 const jokeButton = document.getElementById("normal-joke");
