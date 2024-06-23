@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
+        console.log("API response:", data); 
         jokeText.textContent = data[0].joke;
       })
       .catch((error) => {
